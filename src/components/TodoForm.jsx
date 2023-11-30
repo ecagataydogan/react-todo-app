@@ -21,7 +21,7 @@ export default function TodoForm({ setTodos }) {
         id="todoinput"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
-        placeholder="What is the task today"
+        placeholder="What is the task "
       />
       <Button type="submit">Add Task</Button>
     </Form>
